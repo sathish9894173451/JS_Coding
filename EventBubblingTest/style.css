@@ -1,0 +1,29 @@
+/* body{
+    padding: 20px;
+    background-color: #000;
+}
+div{
+    padding: 20px;
+    background-color: pink;
+}
+span{
+    padding: 20px;
+    background-color: green;
+} */
+body {
+    padding: 20px;
+    background-color: pink;
+  }
+  
+  div {
+    padding: 20px;
+    background-color: green;
+    width: max-content;
+  }
+  
+  span {
+    display: block;
+    padding: 20px;
+    background-color: blue;
+  }
+  

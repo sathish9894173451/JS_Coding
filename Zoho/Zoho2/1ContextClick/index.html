@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context Menu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="contextMenu" class="context-menu">
+        <div class="menu-group">Group 1</div>
+        <div class="menu-item" onclick="showPopup('Group 1 - Menu 1')">Menu 1</div>
+        <div class="menu-item" onclick="showPopup('Group 1 - Menu 2')">Menu 2</div>
+        <div class="menu-group">Group 2</div>
+        <div class="menu-item" onclick="showPopup('Group 2 - Menu 1')">Menu 1</div>
+        <div class="menu-item" onclick="showPopup('Group 2 - Menu 2')">Menu 2</div>
+    </div> 
+    <div id="popup" class="popup">
+        <span id="popupContent"></span>
+        <button onclick="closePopup()">Close</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

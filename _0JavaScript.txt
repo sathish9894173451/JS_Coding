@@ -1,0 +1,28 @@
+--->Data types in Java script?
+1.String
+2.Number
+3.Bigint
+4.Boolean
+5.undefined
+6.null
+7.symbol
+8.object
+
+-->Primitive and non-primitive datatypes
+1.Primitive
+String,Number,Boolean,undefined,null,Symbol 
+2.Non-Primitive
+object
+
+String to Number
+var a = "10.23";
+var b = "12.99"
+Number(a) or parseFloat(a) //10.23
+Roundof means parseInt(b) // 12
+
+Number to String
+var a = 10.23;
+console.log(a.toString())
+
+
+

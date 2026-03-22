@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div>
+            <span>
+                <button>Click me!</button>
+            </span>
+        </div>
+    </body>
+</html>
+
+<script>
+    const body = document.getElementsByTagName('body')[0];
+    const div = document.getElementsByTagName('div')[0];
+    const span = document.getElementsByTagName('span')[0];
+    const button = document.getElementsByTagName('button')[0];
+
+    body.addEventListener('click', () => {
+        console.log("Body is printed")
+    })
+    div.addEventListener('click', () => {
+        console.log("div is printed")
+        event.stopPropagation();
+    })
+    span.addEventListener('click', () => {
+        console.log("span is printed")
+    })
+    button.addEventListener('click', () => {
+        console.log("button is printed")
+    })
+</script>

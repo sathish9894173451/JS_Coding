@@ -1,0 +1,181 @@
+1️⃣ Arrays ⭐
+Very common in interviews.
+
+Topics:
+Array traversal
+Insert / delete element
+Find max / min
+Remove duplicates
+Merge arrays
+Rotate array
+Two pointer technique
+Sliding window
+
+Example problems:
+Find second largest number
+Remove element
+Move zeros to end
+Merge sorted arrays
+
+2️⃣ Strings ⭐
+Most frontend interviews include string problems.
+
+Topics:
+String traversal
+Reverse string
+Palindrome check
+String compression
+Character frequency
+Anagram check
+Substring problems
+
+Example:
+"madam" palindrome check
+Run Length Encoding (AABBB → A2B3)
+Find extra character
+
+3️⃣ Hashing (Objects / Maps / Sets) ⭐
+Very important for optimizing solutions.
+
+Topics:
+Frequency counter
+Duplicate detection
+Lookup optimization
+
+Example problems:
+Two Sum
+First non-repeating character
+Count occurrences
+
+4️⃣ Recursion ⭐
+Important for understanding complex algorithms.
+
+Topics:
+Base case
+Recursive calls
+Backtracking basics
+
+Examples:
+Factorial
+Fibonacci
+Power calculation
+
+5️⃣ Searching Algorithms ⭐
+Linear Search
+Search element one by one.
+Binary Search
+Works on sorted arrays.
+
+Example:
+Find element in sorted array
+First occurrence of number
+
+6️⃣ Sorting Algorithms ⭐
+Very common interview question.
+
+Types:
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+
+Usually they ask:
+Write bubble sort
+Explain time complexity
+
+7️⃣ Two Pointer Technique ⭐
+Used for array and string problems.
+
+Example:
+Remove duplicates
+Pair sum
+Reverse array
+
+8️⃣ Sliding Window ⭐
+Optimized technique for subarrays.
+
+Example:
+Maximum sum subarray
+Longest substring without repeating characters
+
+9️⃣ Stack
+Follows LIFO (Last In First Out).
+
+Operations:
+push
+pop
+peek
+
+Example problems:
+Balanced parentheses
+Reverse string
+
+🔟 Queue
+Follows FIFO (First In First Out).
+
+Operations:
+enqueue
+dequeue
+
+Example:
+Task scheduling
+BFS traversal
+
+1️⃣1️⃣ Linked List
+
+Types:
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+Common questions:
+Reverse linked list
+Detect loop
+Delete node
+
+1️⃣2️⃣ Trees
+Types:
+Binary Tree
+Binary Search Tree (BST)
+
+Traversals:
+Inorder
+Preorder
+Postorder
+Level order
+
+1️⃣3️⃣ Graphs
+
+Concepts:
+DFS
+BFS
+Graph traversal
+
+1️⃣4️⃣ Dynamic Programming (Advanced)
+Used for optimization problems.
+
+Examples:
+Fibonacci (DP)
+Longest common subsequence
+Knapsack
+
+⭐ Most Important Topics for Frontend / JavaScript Interviews
+
+You don't always need full DSA. Usually they focus on:
+
+Arrays
+Strings
+HashMaps / Objects
+Sorting
+Searching
+Two Pointer
+Sliding Window
+Basic Recursion
+
+✅ If you master these 8 topics, you can solve 80% of interview problems.
+
+If you want, I can also give you:
+
+Top 25 JavaScript DSA problems asked in interviews
+
+With simple explanations and solutions (very useful for practice).
