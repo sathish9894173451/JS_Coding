@@ -1,0 +1,93 @@
+🟢 EASY (Start here)
+
+Build your basics strong
+
+1. Find maximum element
+
+👉 Input: [3, 7, 2, 9, 5]
+👉 Output: 9
+
+2. Find minimum element
+
+👉 Input: [3, 7, 2, 9, 5]
+👉 Output: 2
+
+3. Reverse an array (without using reverse)
+
+👉 Input: [1,2,3,4]
+👉 Output: [4,3,2,1]
+
+4. Count frequency of elements
+
+👉 Input: [1,2,2,3,1]
+👉 Output: {1:2, 2:2, 3:1}
+
+5. Find duplicates
+
+👉 Input: [1,2,3,1,2]
+👉 Output: [1,2]
+
+6. Find non-duplicate values
+
+👉 Input: [1,2,3,1,2]
+👉 Output: [3]
+
+🟡 MEDIUM (Most interview questions)
+
+🔥 Focus here strongly
+
+7. Two Sum
+
+👉 Input: [2,7,11,15], target=9
+👉 Output: [2,7]
+
+8. Move zeros to end
+
+👉 Input: [0,1,0,3,12]
+👉 Output: [1,3,12,0,0]
+
+9. Remove duplicates (sorted array)
+
+👉 Input: [1,1,2,2,3]
+👉 Output: [1,2,3]
+
+10. Find missing number
+
+👉 Input: [1,2,4,5]
+👉 Output: 3
+
+11. Rotate array by k steps
+
+👉 Input: [1,2,3,4,5], k=2
+👉 Output: [4,5,1,2,3]
+
+12. Merge two sorted arrays
+
+👉 Input: [1,3,5], [2,4,6]
+👉 Output: [1,2,3,4,5,6]
+
+🔴 HARD (Asked in product companies)
+13. Maximum subarray sum (Kadane’s)
+
+👉 Input: [-2,1,-3,4,-1,2,1,-5,4]
+👉 Output: 6 ([4,-1,2,1])
+
+14. Subarray with given sum
+
+👉 Input: [1,2,3,7,5], target=12
+👉 Output: [2,3,7]
+
+15. Find first non-repeating element
+
+👉 Input: [4,5,1,2,1,2,4]
+👉 Output: 5
+
+16. Sort 0s, 1s, 2s (Dutch Flag)
+
+👉 Input: [2,0,2,1,1,0]
+👉 Output: [0,0,1,1,2,2]
+
+17. Find single element (others twice)
+
+👉 Input: [2,2,1]
+👉 Output: 1
