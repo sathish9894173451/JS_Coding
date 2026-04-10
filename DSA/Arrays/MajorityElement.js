@@ -112,6 +112,7 @@ function majorityElement(nums){
     return result;
 }
 
+
 // console.log(majorityElement(nums));
 
 console.log("output", majorityElement(nums));
