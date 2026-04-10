@@ -27,10 +27,10 @@ for(let i=0; i < duplicate.length; i++){
          obj[item]++;
     }
 
-//     if(obj[item] === 2){
-//      return item;
-//     }
+    if(obj[item] > 1){
+     return item;
+    }
 }
-return obj 
+// return obj 
 }
 console.log(countofDuplicate(duplicate))

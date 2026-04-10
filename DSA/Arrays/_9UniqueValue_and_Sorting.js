@@ -5,7 +5,7 @@ const ids = [15,20,4,5,3,2,15,20];
 // });
 // console.log(uniqueSorting);
 
-const uniqueSorting = ids.filter((ele,index,arr) => arr.indexOf(ele) === index).sort((a,b) => {
-    return a - b;
-})
+const uniqueSorting = ids.filter((ele, index, arr) => arr.indexOf(ele) === index).sort((a,b) => {
+    return a-b;
+});
 console.log(uniqueSorting);

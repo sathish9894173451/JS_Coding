@@ -5,6 +5,9 @@ const sorting = numbers1.sort((a,b) =>{
     return a-b; //asc order a-b, desc order b-a
 })
 console.log("sorting", sorting)
+
+// const sorting1 = numbers1.sort((a,b) => a-b)
+// console.log("sorting1", sorting1)
 // without inbuilt function using bubble sort
 const numbers = [10,4,8,2,15,28,56];
 function sortingNumber(numbers){

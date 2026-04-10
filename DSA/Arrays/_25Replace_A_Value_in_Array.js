@@ -4,3 +4,4 @@ const replaceAt = 1; //position
 const changingNumber = 15; //changing value
 
 console.log(...studentId.slice(0, replaceAt), changingNumber,...studentId.slice(replaceAt+1))
+//console.log(10                            ,   15          ,    30,40)

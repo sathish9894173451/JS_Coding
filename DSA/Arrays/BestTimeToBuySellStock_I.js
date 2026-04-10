@@ -10,10 +10,10 @@ function maxProfitFun(prices){
     for(let i = 1 ; i <= prices.length-1; i++){
 
         minProfit = Math.min(minProfit , prices[i]);
-        console.log("minProfit", minProfit)
+        // console.log("minProfit", minProfit)
 
         maxProfit = Math.max(maxProfit , prices[i] - minProfit);
-        console.log("maxProfit", maxProfit)
+        // console.log("maxProfit", maxProfit)
     }
     return maxProfit;
 
