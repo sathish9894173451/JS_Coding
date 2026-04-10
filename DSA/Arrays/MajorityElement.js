@@ -88,7 +88,7 @@
 // console.log("Majority Element:", majorityElement);
 
 
-var nums = [2,2,1,1,1,2,2,5];
+var nums = [2,2,1,1,1,1,1,1,2,2,5];
 
 function majorityElement(nums){
     let obj = {}; // number : count
@@ -97,7 +97,6 @@ function majorityElement(nums){
 
     for(let i = 0; i < nums.length; i++){
         let num = nums[i];
-        console.log('p', obj[num])
         if(obj[num]){
             obj[num]++;
         }else{
@@ -113,7 +112,8 @@ function majorityElement(nums){
     return result;
 }
 
-console.log(majorityElement(nums));
+
+// console.log(majorityElement(nums));
 
 console.log("output", majorityElement(nums));
 

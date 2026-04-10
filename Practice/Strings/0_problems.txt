@@ -1,0 +1,77 @@
+🟢 EASY (Start here)
+1. Reverse a string
+
+👉 Input: "hello"
+👉 Output: "olleh"
+
+2. Check palindrome
+
+👉 Input: "madam"
+👉 Output: true
+
+3. Count vowels and consonants
+
+👉 Input: "hello"
+👉 Output: vowels=2, consonants=3
+
+4. Remove duplicates from string
+
+👉 Input: "programming"
+👉 Output: "progamin"
+
+5. Find first non-repeating character
+
+👉 Input: "aabbcdd"
+👉 Output: "c"
+
+🟡 MEDIUM (Most asked 🔥)
+6. String compression
+
+👉 Input: "aaabbcc"
+👉 Output: "a3b2c2"
+
+7. Check anagram
+
+👉 Input: "listen", "silent"
+👉 Output: true
+
+8. Find all duplicates with count
+
+👉 Input: "aabbbcc"
+👉 Output: "a2b3c2"
+
+9. Longest substring without repeating characters
+
+👉 Input: "abcabcbb"
+👉 Output: 3 ("abc")
+
+10. Reverse words in a sentence
+
+👉 Input: "I love JS"
+👉 Output: "JS love I"
+
+🔴 HARD (Product companies level)
+11. Longest palindrome substring
+
+👉 Input: "babad"
+👉 Output: "bab" or "aba"
+
+12. Minimum window substring
+
+👉 Input: "ADOBECODEBANC", "ABC"
+👉 Output: "BANC"
+
+13. Group anagrams
+
+👉 Input: ["eat","tea","tan","ate","nat","bat"]
+👉 Output: grouped arrays
+
+14. String permutations
+
+👉 Input: "abc"
+👉 Output: ["abc","acb","bac","bca","cab","cba"]
+
+15. Implement strStr() (substring search)
+
+👉 Input: "hello", "ll"
+👉 Output: 2

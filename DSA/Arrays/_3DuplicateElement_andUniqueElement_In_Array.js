@@ -3,6 +3,9 @@ const duplicateArray = [5,10,15,5,10,20];
 // Find duplicate in array 
 const duplicate = duplicateArray.filter((ele, index, arr) => arr.indexOf(ele) !== index)
 console.log('duplicate', duplicate)
+
+// const duplicate12 = duplicateArray.filter((ele, index, arr) => arr.indexOf(ele) !== index)
+// console.log("duplicate12", duplicate12)
 // | Index | Element | `arr.indexOf(ele)` | `index` | `indexOf != index` | Keep in Result? |
 // | ----- | ------- | ------------------ | ------- | ------------------ | --------------- |
 // | 0     | 5       | 0                  | 0       | false              | ❌ No            |
@@ -42,7 +45,6 @@ const count = {}
 
 for(let i=0; i < duplicateArray1.length; i++){
     const item = duplicateArray1[i];
-    console.log('count[item]', count[item])
     if(count[item] === undefined){
         count[item] = 1
     }else{
@@ -53,4 +55,25 @@ for(let i=0; i < duplicateArray1.length; i++){
         duplicates.push(item)
     }
 }
+
 console.log("duplicates", duplicates)
+
+// Count duplicates properly
+// const duplicateArray1 = [5, 10, 15, 5, 10, 20];
+
+// const count = {};
+
+// for(let i = 0; i < duplicateArray1.length; i++){
+//     const item = duplicateArray1[i];
+//     count[item] = (count[item] || 0) + 1;
+// }
+
+// const duplicates = {};
+
+// for(let key in count){
+//     if(count[key] > 1){
+//         duplicates[key] = count[key];
+//     }
+// }
+
+// console.log(duplicates);
